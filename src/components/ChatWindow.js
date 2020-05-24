@@ -32,6 +32,7 @@ class ChatWindow extends Component {
           onClose={this.props.onClose}
         />
         <MessageList
+          me={this.props.me}
           messages={messageList}
           imageUrl={this.props.agentProfile.imageUrl}
         />

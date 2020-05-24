@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import TextMessage from './TextMessage';
 import EmojiMessage from './EmojiMessage';
 import FileMessage from './FileMessage';
-import chatIconUrl from './../../assets/chat-icon.svg';
-
 
 class Message extends Component {
 
@@ -23,7 +21,7 @@ class Message extends Component {
   render () {
     let contentClassList = [
       'sc-message--content',
-      (this.props.message.author === 'me' ? 'sent' : 'received')
+      (this.props.message.author === this.props.me ? 'sent' : 'received')
     ];
     return (
       <div className="sc-message">

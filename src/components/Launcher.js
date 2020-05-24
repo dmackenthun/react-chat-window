@@ -53,6 +53,7 @@ class Launcher extends Component {
           <img className={'sc-closed-icon'} src={launcherIcon} />
         </div>
         <ChatWindow
+          me={this.props.me}
           messageList={this.props.messageList}
           onUserInputSubmit={this.props.onMessageWasSent}
           onFilesSelected={this.props.onFilesSelected}
