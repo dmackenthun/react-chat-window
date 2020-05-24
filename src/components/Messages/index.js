@@ -28,6 +28,7 @@ class Message extends Component {
     return (
       <div className="sc-message">
         <div className={contentClassList.join(' ')}>
+        <div className="sc-message--avatar">{this.props.message.author}</div>
           {this._renderMessageOfType(this.props.message.type)}
         </div>
       </div>);
