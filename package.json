@@ -1,7 +1,7 @@
 {
-  "name": "react-chat-window",
+  "name": "react-chat-window-poker",
   "version": "1.2.0",
-  "description": "react-chat-window React component",
+  "description": "react-chat-window-poker React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -41,7 +41,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingofthestack/react-chat-window.git"
+    "url": "https://github.com/dmackenthun/react-chat-windowt"
   },
   "keywords": [
     "react-component"
