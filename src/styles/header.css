@@ -21,6 +21,8 @@
   align-self: center;
   padding: 10px;
   flex: 1;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 2em;
   user-select: none;
   border-radius: 5px;
 }
