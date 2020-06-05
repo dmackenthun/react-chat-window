@@ -14,10 +14,6 @@
   justify-content: flex-end;
 }
 
-.sc-message--content.sent .sc-message--avatar {
-  display: none;
-}
-
 .sc-message--name {
   background-repeat: no-repeat;
   background-size: 100%;
